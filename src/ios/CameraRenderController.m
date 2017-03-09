@@ -94,7 +94,7 @@
 
   dispatch_async(self.sessionManager.sessionQueue, ^{
       NSLog(@"Stopping session");
-      [self.sessionManager.session stopRunning];
+      // [self.sessionManager.session stopRunning];
       });
 }
 
